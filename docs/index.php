@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nfc-project</title>
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+<div class="main-app">
+        <div class="app-container d-flex-col">
+            <div class="top d-flex-col center-align w-80 ">
+                <div class="img-holder">
+                    <img src="./assets/img/pius.jpg" alt="x">
+                </div>
+
+                <div class="client-intro d-flex-col center-align">
+                     <h2>Mr,Pius Fredick</h2>
+
+                     <div class="office-intro d-flex-row">
+                        <p class="office">Dremor_graphics TZ</p>
+                        <span class="dot-sm"></span>
+                        <p class="profession">Graphics designer</p>
+                     </div>
+                     <button class="button call d-flex-row">
+                           <a href="#" class="d-flex-row">
+                            <img src="./assets/icons/phone.png" alt="" class="icon">
+                            <p> 0755 363 220</p>
+                           </a>
+                     </button>
+                </div>
+            </div>
+
+            <div class="middle d-flex-col w-80 center-align">
+                <div class="header self d-flex-row center-align">
+                    <img src="./assets/icons/person.png" alt="" class="icon">
+                    <p>self info</p>
+                </div>
+                <div class="account-holder d-flex-col w-96">
+                    <button class="button social-btn d-flex-row">
+                           <a href="https://twitter.com/pius_fredick" class="d-flex-row">
+                            <img src="./assets/icons/twitter.ico" alt="" class="icon">
+                            <p>twitter</p>
+                           </a>
+                     </button>
+                    <button class="button social-btn d-flex-row">
+                           <a href="https://twitter.com/pius_fredick" class="d-flex-row">
+                            <img src="./assets/icons/instagram.ico" alt="" class="icon">
+                            <p>instagram</p>
+                           </a>
+                     </button>
+                    <button class="button social-btn d-flex-row">
+                           <a href="https://twitter.com/pius_fredick" class="d-flex-row">
+                            <img src="./assets/icons/whatsapp.ico" alt="" class="icon">
+                            <p>Whatsapp</p>
+                           </a>
+                     </button>
+                </div>
+            </div>
+            <div class="bottom w-80 center-align d-flex-col">
+                <div class="header d-flex-row">
+                        <img src="../assets/icons/office.png" alt="" class="icon">
+                        <p>Office info</p>
+                    </div>
+
+                <div class="account-holder d-flex-col w-96">
+                <button class="button social-btn d-flex-row">
+                           <a href="https://twitter.com/pius_fredick" class="d-flex-row">
+                            <img src="./assets/icons/twitter.ico" alt="" class="icon">
+                            <p>twitter</p>
+                           </a>
+                     </button>
+                    <button class="button social-btn d-flex-row">
+                           <a href="https://twitter.com/pius_fredick" class="d-flex-row">
+                            <img src="./assets/icons/instagram.ico" alt="" class="icon">
+                            <p>instagram</p>
+                           </a>
+                     </button>
+                    <button class="button social-btn d-flex-row">
+                           <a href="https://twitter.com/pius_fredick" class="d-flex-row">
+                            <img src="./assets/icons/whatsapp.ico" alt="" class="icon">
+                            <p>Whatsapp</p>
+                           </a>
+                     </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
