@@ -53,7 +53,7 @@
                            </a>
                      </button>
                     <button class="button social-btn d-flex-row">
-                           <a href="https://twitter.com/pius_fredick" class="d-flex-row">
+                           <a href="https://whatsapp.me/<0755363220" class="d-flex-row">
                             <img src="./assets/icons/whatsapp.ico" alt="" class="icon">
                             <p>Whatsapp</p>
                            </a>
@@ -62,7 +62,7 @@
             </div>
             <div class="bottom w-80 center-align d-flex-col">
                 <div class="header d-flex-row">
-                        <img src="../assets/icons/office.png" alt="" class="icon">
+                        <img src="./assets/icons/office.png" alt="" class="icon">
                         <p>Office info</p>
                     </div>
 
