@@ -11,6 +11,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
+  background: linear-gradient(to top, rgba(255, 216, 216, 0.936), rgba(247, 187, 187, 0.753), rgba(255, 219, 219, 0.432));
 }
 
 h1, h2, h3, h4, h5 {
@@ -128,12 +129,12 @@ a {
 }
 
 button {
-  background-color: white;
-  border: 1px solid black;
+  background-color: transparent;
+  border: 1px solid rgb(101, 101, 101);
   padding: 0.9rem 0.3rem;
   width: 72%;
   height: 5.5vh;
-  border-radius: 3px;
+  border-radius: 9.3px;
   align-items: center;
 }
 button a {
@@ -157,7 +158,7 @@ button a img {
 }
 
 .button.call a {
-  color: rgb(200, 81, 48);
+  color: rgb(28, 28, 27);
 }
 
 .account-holder {
@@ -197,7 +198,10 @@ button a img {
 }
 
 .main-app {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.587);
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.23);
+  padding: 1rem 0;
   width: 64%;
   height: 100%;
   margin: 0 auto;
@@ -211,11 +215,12 @@ button a img {
   position: relative;
   overflow: hidden;
   align-items: center;
+  background-color: rgba(255, 255, 255, 0.183);
   width: 64%;
   margin: 0 auto;
   padding: 2rem 1rem;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.224);
-  border-radius: 6px;
+  border-radius: 18px;
   gap: 0.6rem;
   transition: all 400ms ease;
 }
@@ -225,13 +230,24 @@ button a img {
     padding: 1.2rem 0.5rem;
   }
 }
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 .main-app .top {
   position: relative;
   gap: 0.7rem;
   margin-bottom: 32px;
 }
 .main-app .top .img-holder {
-  border-radius: 6%;
+  border-radius: 50%;
   overflow: hidden;
   width: 32%;
 }
@@ -266,10 +282,14 @@ button a img {
   font-size: 17px;
   font-weight: 300;
 }
+.main-app .top .client-intro .office-intro .button a p {
+  color: black;
+}
 .main-app .middle {
   position: relative;
   gap: 0.4rem;
   margin-bottom: 1px;
+  background-color: transparent;
 }
 .main-app .bottom {
   gap: 0.4rem;
